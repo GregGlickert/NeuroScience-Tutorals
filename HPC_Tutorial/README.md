@@ -4,7 +4,7 @@ Then run the command
 ```
 sbatch batch_build.sh
 ```
-This will build the network and send an email saying the network is build. MAKE SURE TO CHANGE TO EMAIL IN THE BATCH FILES SO I DON'T GET A BUNCH OF EMAILS. To change the email edit the batch files using VIM. <br/>Then to run the network using multiple cores use the batch run file
+This will build the network and send an email saying the network is build. MAKE SURE TO CHANGE TO EMAIL IN THE BATCH FILES SO I DON'T GET A BUNCH OF EMAILS. To change the email edit the batch files using VIM. <br/>Then to run the network using multiple cores use the batch run file<br/>Don't forget to compile the modfiles!
 ```
 sbatch batch_run.sh
 ```
