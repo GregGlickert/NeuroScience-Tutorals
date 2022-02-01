@@ -5,7 +5,7 @@
 #SBATCH --qos=normal
 #SBATCH --job-name=HPC_build
 #SBATCH --output=HPC_build.out
-#SBATCH --time 0-2400:00
+#SBATCH --time 0-00:30
 
 START=$(date)
 python build_network.py
